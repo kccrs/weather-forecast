@@ -5,7 +5,7 @@ const initialState = {
   }
 };
 
-const currentCityReducer = ( state = initialState, action ) => {
+const currentCityReducer = ( action, state = initialState ) => {
   switch(action.type) {
     case "CURRENT_LOCAL_CITY":
       return Object.assign({}, state, action.weather);

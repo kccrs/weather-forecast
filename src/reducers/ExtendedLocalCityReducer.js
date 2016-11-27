@@ -2,7 +2,7 @@ const initialState = {
   defaultState: []
 };
 
-const ExtendedLocalCityReducer = ( state = initialState, action ) => {
+const ExtendedLocalCityReducer = ( action, state = initialState ) => {
   switch(action.type) {
     case "EXTENDED_LOCAL_CITY":
       return Object.assign({}, state, action.weather);
