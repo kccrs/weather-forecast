@@ -8,9 +8,9 @@ import PinnedCityCurrentContainer from '../containers/PinnedCityCurrentContainer
 describe('CityShortForecast', () => {
 
   it('has a class of CityForecast', () => {
-    const wrapper = shallow(<CityShortForecast />);
+    const wrapper = shallow(<CityShortForecast pinnedCity={{}}/>);
 
-    expect(wrapper.is('.CityForecast')).toEqual(true);
+    expect(wrapper.find('.CityForecast').length).toEqual(1);
   });
 
   it('should have a temp element if a temp is passed as a prop', () => {

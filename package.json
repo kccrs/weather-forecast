@@ -38,13 +38,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kylem038/weather-forecast.git"
+    "url": "git+https://github.com/kccrs/weather-forecast.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kylem038/weather-forecast/issues"
+    "url": "https://github.com/kccrs/weather-forecast/issues"
   },
-  "homepage": "https://github.com/kylem038/weather-forecast#readme"
+  "homepage": "https://github.com/kccrs/weather-forecast#readme"
 }
